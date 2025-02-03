@@ -36,7 +36,7 @@ public class EmailGeneratorService {
                 }
         );
 
-        // Do request and get response
+//         Do request and get response
         String response = webClient.post()
                 .uri(geminiApiUrl + geminiApiKey)
                 .header("Content-Type","application/json")
